@@ -612,6 +612,10 @@ video {
   left: 2.5rem;
 }
 
+.left-\[15rem\] {
+  left: 15rem;
+}
+
 .m-auto {
   margin: auto;
 }
