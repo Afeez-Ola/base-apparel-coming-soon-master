@@ -13,7 +13,7 @@ module.exports = {
         },
         white: "#FFFFFF"
       },
-      backgroundColor: {
+      backgroundImage: {
         gradient: "linear-gradient(90deg, #F8BFBF 0%, #EE8B8B 100%)"
       },
       fontFamily: {
