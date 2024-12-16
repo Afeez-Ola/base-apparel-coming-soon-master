@@ -902,6 +902,11 @@ video {
   color: rgb(206 152 152 / var(--tw-text-opacity, 1));
 }
 
+.active\:bg-brown-default:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(206 152 152 / var(--tw-bg-opacity, 1));
+}
+
 @media not all and (min-width: 640px) {
   .max-sm\:pb-10 {
     padding-bottom: 2.5rem;
