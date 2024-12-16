@@ -680,6 +680,10 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -760,6 +764,10 @@ video {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-left {
@@ -892,6 +900,12 @@ video {
 .placeholder\:text-brown-default::placeholder {
   --tw-text-opacity: 1;
   color: rgb(206 152 152 / var(--tw-text-opacity, 1));
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
