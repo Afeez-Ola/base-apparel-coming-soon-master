@@ -907,6 +907,10 @@ video {
     margin: auto;
   }
 
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
