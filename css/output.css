@@ -954,6 +954,18 @@ video {
     left: 2.5rem;
   }
 
+  .lg\:left-\[15rem\] {
+    left: 15rem;
+  }
+
+  .lg\:left-\[1rem\] {
+    left: 1rem;
+  }
+
+  .lg\:left-\[18rem\] {
+    left: 18rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
