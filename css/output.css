@@ -570,6 +570,10 @@ video {
   position: relative;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -642,6 +646,27 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-\[1\.75rem\] {
+  border-radius: 1.75rem;
+}
+
+.rounded-\[1\.15rem\] {
+  border-radius: 1.15rem;
+}
+
+.rounded-\[1\.5rem\] {
+  border-radius: 1.5rem;
+}
+
+.rounded-s-3xl {
+  border-start-start-radius: 1.5rem;
+  border-end-start-radius: 1.5rem;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -671,6 +696,26 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-\[1\.15rem\] {
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
 }
 
 .text-center {
