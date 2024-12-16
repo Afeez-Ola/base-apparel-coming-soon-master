@@ -16,25 +16,25 @@
 </head>
 
 <body>
-  <div class="flex flex-col w-full bg-white">
-    <div class="p-12 nav">
+  <div class="flex flex-col w-full h-screen m-auto bg-white lg:bg-no-repeat lg:bg-cover lg:bg-desktop">
+    <div class="flex w-10/12 py-10 m-auto nav lg:absolute lg:left-10 lg:justify-right ">
       <img class="logo" src="/images/logo.svg" alt="logo">
     </div>
 
-    <div class="flex flex-col justify-center gap-20 pb-8 main bg-gradientLight">
-      <picture>
+    <div class="flex flex-col items-center justify-center gap-20 pb-8 lg:container lg:m-auto main bg-gradientLight lg:flex-row-reverse">
+      <picture class="w-full">
         <source srcset="/images/hero-desktop.jpg" media="(min-width: 768px)">
         <source srcset="/images/hero-mobile.jpg" media="(max-width: 767px)">
         <img class="w-full" src="/images/hero-mobile.jpg" alt="Hero Image  ">
       </picture>
 
       <div class="cta font-Joseph">
-        <div class="flex flex-col items-center justify-center w-10/12 gap-8 m-auto text-center cta_content">
-          <h1 class="text-4xl uppercase tracking-[10.83px] text-brown-dark font-semibold font-Joseph"> <span class="font-light text-brown-default">We're</span> coming soon</h1>
+        <div class="flex flex-col items-center justify-center w-10/12 gap-8 m-auto text-center cta_content lg:text-left lg:w-1/2">
+          <h1 class="text-4xl uppercase tracking-[10.83px] text-brown-dark font-semibold font-Joseph lg:text-[4rem] lg:tracking-[17.32px] leading-[1.2]"> <span class="font-light text-brown-default">We're</span> coming soon</h1>
           <p class="text-sm font-normal text-brown-default">Hello fellow shoppers! We're currently building our new fashion store.
             Add your email below to stay up-to-date with announcements and our launch deals.</p>
           <form class="relative flex items-center w-full input-container">
-            <input class="w-full py-4 text-sm font-normal border-2 indent-4 rounded-3xl border-brown-default placeholder:text-brown-default placeholder:text-sm placeholder:font-normal" type="text" placeholder="Email Address" />
+            <input class="w-full py-4 text-sm font-normal border indent-4 rounded-3xl border-brown-default placeholder:text-brown-default placeholder:text-base placeholder:font-light" type="text" placeholder="Email Address" />
             <button  class="absolute rounded-[1.5rem] px-8 py-[1.15rem] right-0 bg-gradient submit-button">
               <img src="/images/icon-arrow.svg" alt="icon-arrow">
             </button>
