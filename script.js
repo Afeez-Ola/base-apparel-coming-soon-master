@@ -5,6 +5,7 @@ let statusMessage = document.getElementById("status")
 
 button.addEventListener("click", ValidateEmail)
 
+form.addEventListener("submit", ValidateEmail)
 
 
 function ValidateEmail(e){
@@ -14,14 +15,16 @@ function ValidateEmail(e){
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (emailRegex.test(email)){
-    statusMessage.classList.remove("hidden")
-    statusMessage.classList.add("text-green-600")
-    statusMessage.innerText = "Email is Valid";
+    statusMessage.classList.remove("hidden", "text-brown-light")
+    statusMessage.innerText = "Thank you for Joining Us! ";
+    statusMessage.style.color = "green"
 
+    console.log(statusMessage);
+    
+    emailField.value = ""
   } else {
     statusMessage.classList.remove("hidden")
   }
-
   console.log(email);
 }
 
