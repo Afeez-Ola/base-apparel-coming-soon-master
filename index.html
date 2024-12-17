@@ -23,7 +23,7 @@
 
     <div
       class="flex flex-col items-center justify-center gap-20 max-sm:pb-10 lg:m-auto main bg-gradientLight lg:flex-row-reverse">
-      <picture class="w-full lg:w-9/12">
+      <picture class="w-full lg:self-end lg:w-5/12">
         <source srcset="/images/hero-desktop.jpg" media="(min-width: 768px)">
         <source srcset="/images/hero-mobile.jpg" media="(max-width: 767px)">
         <img class="w-full lg:h-screen" src="/images/hero-mobile.jpg" alt="Hero Image  ">
@@ -33,19 +33,19 @@
         <div
           class="flex flex-col items-center justify-center w-10/12 gap-8 m-auto text-center cta_content lg:text-left ">
           <h1
-            class="text-4xl uppercase tracking-[10.83px] text-brown-dark font-semibold font-Joseph lg:text-[4rem] lg:tracking-[17.32px] leading-[1.2]">
+            class="text-4xl lg:w-6/12 lg:self-start uppercase tracking-[10.83px] text-brown-dark font-semibold font-Joseph lg:text-[4rem] lg:tracking-[17.32px] leading-[1.2]">
             <span class="font-light text-brown-default">We're</span> coming soon
           </h1>
-          <p class="text-sm font-normal lg:w-10/12 lg:self-start text-brown-default">Hello fellow shoppers! We're currently building our new
+          <p class="text-sm font-normal lg:w-6/12 lg:leading-[1.9] lg:self-start text-brown-default">Hello fellow shoppers! We're currently building our new
             fashion store.
             Add your email below to stay up-to-date with announcements and our launch deals.</p>
-          <form class="relative flex items-center w-full input-container">
+          <form class="relative flex items-center w-full lg:self-start lg:w-7/12 input-container">
             <input
               class="w-full py-4 text-sm font-normal border border-brown-default indent-4 rounded-3xl placeholder:text-brown-default placeholder:text-base placeholder:font-light"
               type="text" placeholder="Email Address" id="email" name="email" />
             <img class="hidden absolute left-[15rem] lg:left-[18rem]" src="/images/icon-error.svg" alt="icon-error">
             <button
-              class="absolute rounded-[1.5rem] px-8 py-[1.15rem] right-0 bg-gradient active:bg-none active:bg-brown-default submit-button">
+              class="absolute rounded-[1.5rem] px-8 lg:px-12 py-[1.15rem] right-0 bg-gradient active:bg-none active:bg-brown-default submit-button">
               <img src="/images/icon-arrow.svg" alt="icon-arrow">
             </button>
           </form>
