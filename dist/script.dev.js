@@ -4,7 +4,6 @@ var emailField = document.getElementById("email");
 var form = document.querySelector("form");
 var button = document.querySelector("button");
 var statusMessage = document.getElementById("status");
-button.addEventListener("click", ValidateEmail);
 form.addEventListener("submit", ValidateEmail);
 
 function ValidateEmail(e) {
@@ -21,6 +20,4 @@ function ValidateEmail(e) {
   } else {
     statusMessage.classList.remove("hidden");
   }
-
-  console.log(email);
 }

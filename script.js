@@ -3,10 +3,7 @@ const form = document.querySelector("form");
 const button = document.querySelector("button")
 let statusMessage = document.getElementById("status")
 
-button.addEventListener("click", ValidateEmail)
-
 form.addEventListener("submit", ValidateEmail)
-
 
 function ValidateEmail(e){
   e.preventDefault()
@@ -25,7 +22,6 @@ function ValidateEmail(e){
   } else {
     statusMessage.classList.remove("hidden")
   }
-  console.log(email);
 }
 
 
