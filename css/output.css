@@ -675,6 +675,14 @@ video {
   width: 2.5rem;
 }
 
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -1012,8 +1020,24 @@ video {
     width: 100%;
   }
 
+  .lg\:w-9\/12 {
+    width: 75%;
+  }
+
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-10\/12 {
+    width: 83.333333%;
+  }
+
   .lg\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .lg\:self-start {
+    align-self: flex-start;
   }
 
   .lg\:bg-desktop {
